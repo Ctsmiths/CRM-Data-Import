@@ -1,0 +1,15 @@
+## v1.2 - 2026-09-24
+- Standard admin keys, the same in every Belimo tool: F12 asks for the admin password and then shows and unprotects every sheet; F11 puts every sheet back exactly as it was.
+- One password now protects every sheet in every tool.
+- Corrected the update source so Check for Updates looks in the right repository.
+- You are now told when a newer version exists: when you open the tool, a message offers to install it (Yes downloads and installs it, No carries on). You are asked only once for each new version; Check for Updates on the About screen is always there.
+
+## v1.1 - 2026-09-23
+- Added GitHub-based auto-update: the tool now checks for new versions on open and lets you know when one's available.
+- Added an About screen (the round (i) button on the Dashboard) with a "Check for Updates" button, a "Download Fresh Copy" button and a "Download User Manual" button.
+- Updates save through a normal Windows Save As dialog - you pick where the new version goes, just like saving any other file. Your current copy is never touched or deleted.
+- The file now has a fixed name, CRM_DataImport.xlsm; the version is shown on the About screen instead of in the file name.
+- Added a user manual.
+
+## v1.0
+- Renamed from the xml_DataImport V8.x series.
